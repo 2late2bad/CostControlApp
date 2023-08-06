@@ -80,17 +80,7 @@ private extension IncomeViewModel {
             }
         }
         // Тестовый массив, если он не нужен - возвращаем пустой массив.
-        return [
-            Income(value: 15000, date: .from(year: 2023, month: 1, day: 5)),
-            Income(value: 35000, date: .from(year: 2023, month: 1, day: 20)),
-            Income(value: 15000, date: .from(year: 2023, month: 2, day: 5)),
-            Income(value: 12000, date: .from(year: 2023, month: 2, day: 15)),
-            Income(value: 35000, date: .from(year: 2023, month: 2, day: 20)),
-            Income(value: 15000, date: .from(year: 2023, month: 3, day: 5)),
-            Income(value: 35000, date: .from(year: 2023, month: 3, day: 20)),
-            Income(value: 15000, date: .from(year: 2023, month: 4, day: 5)),
-            Income(value: 35000, date: .from(year: 2023, month: 4, day: 20))
-        ].sorted { $0.date > $1.date }
+        return []
     }
     
     func calculateBalance() {

@@ -16,7 +16,7 @@ enum Screen {
 
 final class TabBarRouter: ObservableObject {
     
-    @Published var screen: Screen = .Expenses
+    @Published var screen: Screen = .Income
     
     func change(to screen: Screen) {
         self.screen = screen

@@ -24,7 +24,8 @@ struct TabBarView: View {
                 }
                 .tag(Screen.Income)
             
-            ScheduleView()
+            ScheduleView(scheduleViewModel: ScheduleViewModel(expenseViewModel: expenseViewModel,
+                                                              incomeViewModel: incomeViewModel))
                 .tabItem {
                     Label("График", systemImage: "chart.xyaxis.line")
                 }

@@ -18,7 +18,8 @@ struct DetailExpensesView: View {
     var body: some View {
             VStack {
                 NavigationLink {
-                    PaymentScheduleView(expenses: vM.getCategory(for: broadcastID)?.expenses ?? [], title: vM.getCategory(for: broadcastID)?.name ?? "Без категории")
+                    PaymentScheduleView(title: vM.getCategory(for: broadcastID)?.name ?? "Без категории",
+                                        paymentViewModel: PaymentScheduleViewModel(expenses: vM.getCategory(for: broadcastID)?.expenses ?? []))
                 } label: {
                     Text("График платежей")
                         .font(.headline)

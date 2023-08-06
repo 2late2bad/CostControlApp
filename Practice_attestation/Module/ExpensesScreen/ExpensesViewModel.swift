@@ -126,45 +126,7 @@ private extension ExpensesViewModel {
             }
         }
         // Тестовый массив, если он не нужен - возвращаем пустой массив.
-        return [
-            Category(name: "Дом", expenses: [
-                Expense(name: "Сковородка", date: .from(year: 2023, month: 7, day: 30), value: 1500),
-                Expense(name: "Чайник", date: .from(year: 2023, month: 8, day: 2), value: 900),
-                Expense(name: "Лампочка", date: .from(year: 2023, month: 7, day: 31), value: 200),
-                Expense(name: "Телевизор", date: .from(year: 2023, month: 8, day: 3), value: 35000),
-                Expense(name: "СВЧ", date: .from(year: 2023, month: 8, day: 2), value: 1500),
-                Expense(name: "Кресло", date: .from(year: 2023, month: 7, day: 31), value: 28000),
-                Expense(name: "Холодильник", date: .from(year: 2023, month: 8, day: 1), value: 40000),
-                Expense(name: "Светильник", date: .from(year: 2023, month: 8, day: 1), value: 11000),
-                Expense(name: "Смеситель", date: .from(year: 2023, month: 8, day: 1), value: 4700)
-            ].sorted { $0.date > $1.date }),
-            Category(name: "Продукты", expenses: [
-                Expense(name: "Чай", date: .from(year: 2023, month: 8, day: 3), value: 213),
-                Expense(name: "Кофе", date: .from(year: 2023, month: 8, day: 4), value: 849),
-                Expense(name: "Хлеб", date: .from(year: 2023, month: 8, day: 4), value: 40),
-                Expense(name: "Молоко", date: .from(year: 2023, month: 8, day: 4), value: 75),
-                Expense(name: "Яйца", date: .from(year: 2023, month: 8, day: 5), value: 92),
-                Expense(name: "Вафли", date: .from(year: 2023, month: 8, day: 5), value: 88),
-                Expense(name: "Мороженое", date: .from(year: 2023, month: 8, day: 5), value: 120),
-                Expense(name: "Коньяк", date: .from(year: 2023, month: 7, day: 31), value: 4299),
-                Expense(name: "Говядина", date: .from(year: 2023, month: 8, day: 6), value: 980),
-                Expense(name: "Сахар", date: .from(year: 2023, month: 8, day: 6), value: 69)
-            ].sorted { $0.date > $1.date }),
-            Category(name: "Досуг", expenses: [
-                Expense(name: "Кинотеатр", date: .from(year: 2023, month: 8, day: 1), value: 450),
-                Expense(name: "Театр", date: .from(year: 2023, month: 8, day: 3), value: 4000),
-                Expense(name: "Горнолыжка", date: .from(year: 2023, month: 8, day: 5), value: 20000)
-            ].sorted { $0.date > $1.date }),
-            Category(name: "Постоянные траты", expenses: [
-                Expense(name: "Онлайн-кино", date: .from(year: 2023, month: 4, day: 1), value: 300),
-                Expense(name: "Онлайн-кино", date: .from(year: 2023, month: 5, day: 1), value: 300),
-                Expense(name: "Онлайн-кино", date: .from(year: 2023, month: 6, day: 1), value: 300),
-                Expense(name: "Онлайн-кино", date: .from(year: 2023, month: 7, day: 1), value: 300),
-                Expense(name: "Собачий корм", date: .from(year: 2023, month: 8, day: 1), value: 1300)
-            ]),
-            Category(name: "Путешествия", expenses: [
-                Expense(name: "Казахстан", date: .from(year: 2023, month: 7, day: 14), value: 50000),
-            ].sorted { $0.date > $1.date })]
+        return []
     }
     
     func calculateExpenses() {

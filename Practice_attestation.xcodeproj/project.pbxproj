@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2445902129E832E000C5169D /* GeneralEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2445902029E832E000C5169D /* GeneralEnvironment.swift */; };
+		2482C9362A804F8900AF6DBC /* PaymentScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482C9352A804F8900AF6DBC /* PaymentScheduleViewModel.swift */; };
+		2482C9382A80557400AF6DBC /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482C9372A80557400AF6DBC /* ScheduleViewModel.swift */; };
 		24B5B0EB29E6E2B0003FEBAA /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5B0EA29E6E2B0003FEBAA /* ExpensesViewModel.swift */; };
 		24B5B0ED29E6E2B8003FEBAA /* ExpensesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5B0EC29E6E2B8003FEBAA /* ExpensesModel.swift */; };
 		24B5B0F029E6FCA5003FEBAA /* DetailExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5B0EF29E6FCA5003FEBAA /* DetailExpensesView.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		2445902029E832E000C5169D /* GeneralEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralEnvironment.swift; sourceTree = "<group>"; };
+		2482C9352A804F8900AF6DBC /* PaymentScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScheduleViewModel.swift; sourceTree = "<group>"; };
+		2482C9372A80557400AF6DBC /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		24B5B0EA29E6E2B0003FEBAA /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
 		24B5B0EC29E6E2B8003FEBAA /* ExpensesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesModel.swift; sourceTree = "<group>"; };
 		24B5B0EF29E6FCA5003FEBAA /* DetailExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailExpensesView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				24F37BB829F69519007EA109 /* ScheduleView.swift */,
+				2482C9372A80557400AF6DBC /* ScheduleViewModel.swift */,
 			);
 			path = ScheduleScreen;
 			sourceTree = "<group>";
@@ -80,6 +85,14 @@
 				24DC0FEE29E57602006E05EF /* TabBarView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2482C9392A80599000AF6DBC /* ModelGraph */ = {
+			isa = PBXGroup;
+			children = (
+				24F37BC429F6CA8D007EA109 /* ModelForGraph.swift */,
+			);
+			path = ModelGraph;
 			sourceTree = "<group>";
 		};
 		24B5B0E929E6E27C003FEBAA /* ExpensesScreen */ = {
@@ -98,6 +111,7 @@
 			children = (
 				24B5B0EF29E6FCA5003FEBAA /* DetailExpensesView.swift */,
 				24EE9E9F29E98EE500411A2B /* PaymentScheduleView.swift */,
+				2482C9352A804F8900AF6DBC /* PaymentScheduleViewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +186,7 @@
 		24F37BC029F6C7A0007EA109 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				2482C9392A80599000AF6DBC /* ModelGraph */,
 				24DC0FFB29E60A4F006E05EF /* IncomeScreen */,
 				2445902229E845C500C5169D /* ScheduleScreen */,
 				24B5B0E929E6E27C003FEBAA /* ExpensesScreen */,
@@ -184,7 +199,6 @@
 			children = (
 				24F37BBA29F6C6FD007EA109 /* Extensions */,
 				24F37BC229F6C813007EA109 /* Resources.swift */,
-				24F37BC429F6CA8D007EA109 /* ModelForGraph.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -262,12 +276,14 @@
 				24DC0FFD29E60A6F006E05EF /* IncomeViewModel.swift in Sources */,
 				24F37BC329F6C813007EA109 /* Resources.swift in Sources */,
 				2445902129E832E000C5169D /* GeneralEnvironment.swift in Sources */,
+				2482C9382A80557400AF6DBC /* ScheduleViewModel.swift in Sources */,
 				24DC0FF329E57688006E05EF /* IncomeView.swift in Sources */,
 				24DC0FEF29E57602006E05EF /* TabBarView.swift in Sources */,
 				24F37BB929F69519007EA109 /* ScheduleView.swift in Sources */,
 				24B5B0EB29E6E2B0003FEBAA /* ExpensesViewModel.swift in Sources */,
 				24DC0FF729E576A6006E05EF /* ExpensesView.swift in Sources */,
 				24DC0FFF29E60A77006E05EF /* IncomeModel.swift in Sources */,
+				2482C9362A804F8900AF6DBC /* PaymentScheduleViewModel.swift in Sources */,
 				24B5B0F029E6FCA5003FEBAA /* DetailExpensesView.swift in Sources */,
 				24DC100229E60EB7006E05EF /* HeaderView.swift in Sources */,
 				24B5B0ED29E6E2B8003FEBAA /* ExpensesModel.swift in Sources */,
