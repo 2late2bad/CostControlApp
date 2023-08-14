@@ -1,4 +1,8 @@
 # CostControlApp
+![iOS](https://img.shields.io/badge/iOS-16+%20-white?logo=Apple&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-5.5-red?logo=Swift&logoColor=red)
+![Xcode](https://img.shields.io/badge/Xcode-14.3%20-00B2FF?logo=Xcode&logoColor=00B2FF)
+
 Предаттестационный проект для Skillbox (продублирован с рабочего репозитория Skillbox на GitLab).
 
 Данный проект представляет собой приложение, позволяющее пользователю контролировать баланс своих доходов и расходов, а также наблюдать за ними в графическом виде.
@@ -7,10 +11,6 @@
 - Демонстрация баланса доходов/расходов в виде сводного графика
 - Отдельный график расходов для каждой категории
 - Графики могут отображать данные за период недели, месяца, квартала и года
-
-![iOS](https://img.shields.io/badge/iOS-16+%20-white?logo=Apple&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-5.5-red?logo=Swift&logoColor=red)
-![Xcode](https://img.shields.io/badge/Xcode-14.3%20-00B2FF?logo=Xcode&logoColor=00B2FF)
 
 ## Preview
 Экраны приложения:
